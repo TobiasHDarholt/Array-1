@@ -1,0 +1,13 @@
+public boolean sameFirstLast(int[] nums){
+
+  boolean result = false;
+  
+  if(nums.length >= 1){
+  if(nums[0] == nums[nums.length-1]){
+  
+     result = true;
+  }
+  
+  }return result;
+  
+}
